@@ -10,5 +10,5 @@
   ⑤、启动工程： npm start
   ⑥、打开浏览器访问：http://localhost:3000(默认端口是3000)
  ###页面：
- ![Mou_icon](.public/images/page.png)
+ ![Mou_icon](public/images/page.png)
 
