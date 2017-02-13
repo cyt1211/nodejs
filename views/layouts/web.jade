@@ -1,0 +1,18 @@
+doctype html
+html
+    head
+        title #{title}
+        meta(http-equiv="Content-Type", content="text/html;charset=UTF-8")
+        block style
+            link(rel="icon", type="image/png", href="/public/images/favicon.ico")
+            link(rel="stylesheet", href="/public/style/common/base.css")
+    body
+        include header
+        block content
+        include footer
+        block script
+            script(src="/public/js/lib/jquery-1.8.3.min.js")
+            script(src="/public/js/lib/json2.js")
+            script(src="/public/js/lib/dot.min.js")
+            script(src="/public/js/util.js")
+            script(src="/public/js/lib/jquery.base64.min.js")

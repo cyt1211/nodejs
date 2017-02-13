@@ -1,0 +1,42 @@
+extends layouts/web.jade
+block append style
+    link(rel="stylesheet", href="/public/style/weather.css")
+
+block content
+    .content
+        ul.content-list
+            li.item_1
+                .list
+                    .player
+                .list
+                    .count
+                .list
+                    .weather-img
+            li.item_2
+                .list
+                    .user
+                        .user-header.clearfix
+                            .user-img-part
+                                img.user-img(src="/public/images/ap_user.png")
+                            .user-des
+                                p.des-head Anne Thai <br/><span>Product Designer</span><br/>
+                                    a.des-link(href="http://annethai.com/" target="_blank")
+                                        span http://annethai.com/
+                        .user-center.clearfix
+                            ul
+                                li.block-item.block1
+                                li.block-item.block2
+                                li.block-item.block3
+                .list
+                    .login
+                        .login-mesg
+                        .login-other
+                .list
+                    .address
+            li.item_3
+                .list
+                    .data
+                .list
+                    .date
+block append script
+
