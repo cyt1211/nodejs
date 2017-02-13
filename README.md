@@ -9,6 +9,6 @@
   ④、安装node_modules:  npm install(这个过程有点慢)
   ⑤、启动工程： npm start
   ⑥、打开浏览器访问：http://localhost:3000(默认端口是3000)
- ###页面：
+###页面：
  ![Mou_icon](public/images/page.png)
 
